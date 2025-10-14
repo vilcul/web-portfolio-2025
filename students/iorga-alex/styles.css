@@ -1,0 +1,105 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --text-color: #333;
+  --bg-color: #f8f9fa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  line-height: 1.6;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+section {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+section h2 {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+.skills .skill {
+  margin-bottom: 1rem;
+}
+.skill p {
+  margin-bottom: 0.3rem;
+}
+.skill-bar {
+  height: 20px;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  transition: width 0.5s ease;
+  cursor: pointer; /* indică că e interactiv */
+}
+.projects .project-card {
+  background-color: var(--bg-color);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 5px solid var(--secondary-color);
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+.projects .project-card:hover {
+  transform: translateY(-5px);
+}
+.projects a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.projects a:hover {
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  margin-top: 2rem;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  margin-top: 2rem;
+}
+@media (max-width: 768px) {
+  .avatar {
+    width: 150px;
+    height: 150px;
+  }
+  section {
+    padding: 1rem;
+  }
+  .skill-bar {
+    height: 15px;
+  }
+}
+
+/* ... restul stilurilor */

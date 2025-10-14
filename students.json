@@ -1,0 +1,18 @@
+{
+    "course": "TIC - Web Technologies",
+    "semester": "2025-2026",
+    "students": [
+      {
+        "id": 1,
+        "firstName": "Ion",
+        "lastName": "Popescu",
+        "folder": "popescu-ion"
+      },
+      {
+        "id": 2,
+        "firstName": "Maria",
+        "lastName": "Ionescu",
+        "folder": "ionescu-maria"
+      }
+    ]
+  }
